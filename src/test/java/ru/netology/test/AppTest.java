@@ -43,6 +43,5 @@ public class AppTest {
         var verificationCode = DataHelper.generateRandomVerificationCode();
         verificationPage.verify(verificationCode.getCode());
         verificationPage.verifyErrorNotificationVisiblity();
-
     }
 }
