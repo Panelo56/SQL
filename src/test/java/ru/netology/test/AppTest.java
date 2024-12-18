@@ -1,10 +1,10 @@
 package ru.netology.test;
 
-import ru.netology.data.DataHelper;
 import ru.netology.data.SQLHelper;
 import ru.netology.page.LoginPage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
+import ru.netology.data.DataHelper;
 
 import static com.codeborne.selenide.Selenide.open;
 import static ru.netology.data.SQLHelper.databaseClean;
